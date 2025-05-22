@@ -1,0 +1,16 @@
+.headerStuff {
+  background-color: darkgray;
+  color: white;
+  width: auto;
+  height: 200px;
+  width: 100%;
+}
+
+.headerStyles {
+  background-color: rgb(209, 19, 19);
+}
+
+.headerImg {
+  width: 75px;
+  height: 75px;
+}

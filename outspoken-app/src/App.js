@@ -1,11 +1,11 @@
 import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1>Welcome to Outspoken - UIC's Poetry Club</h1>
+        <h1>App JS</h1>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Reactf
+          Learn React
         </a>
       </header>
     </div>
