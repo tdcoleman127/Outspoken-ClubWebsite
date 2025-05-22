@@ -4,14 +4,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import clubLogo from './img/outspoken_seal.png'
+import clubLogo from './img/outspoken_seal.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function CustomHeader() {
   return (
-    <Navbar className="bg-body-tertiary" sticky="top" expand="lg">
+    <Navbar className="purpleStuff px-3 py-3" sticky="top" expand="lg">
       <Container>
-        {/* <img src={clubLogo} className="headerImg" alt="Club Logo"/> */}
+        <img src={clubLogo} className="headerImg" alt="Club Logo"/>
         <Navbar.Brand href="#home">Outspoken Poetry Club</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

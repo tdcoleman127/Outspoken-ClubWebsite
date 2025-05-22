@@ -6,11 +6,12 @@
   width: 100%;
 }
 
-.headerStyles {
-  background-color: rgb(209, 19, 19);
+.purpleStuff {
+  background-color: rgb(197, 118, 254);
 }
 
 .headerImg {
   width: 75px;
   height: 75px;
+  margin-right: 20px;
 }

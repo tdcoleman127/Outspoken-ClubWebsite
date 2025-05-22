@@ -4,11 +4,14 @@ import CustomHeader from './Header';
 import ControlledCarousel from './Carousel';
 import FeaturedPoetry from './Featured';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import clubLogo from './img/outspoken_seal.png';
 
 function HomePage() {
   return (
     <div>
+    <head>
+    <link rel="icon" href={clubLogo} />
+    </head>
       <CustomHeader></CustomHeader>
       <h2>Poetry Work Carousel</h2>
       <ControlledCarousel></ControlledCarousel>
