@@ -10,17 +10,13 @@ function HomePage() {
   return (
     <div>
       <CustomHeader></CustomHeader>
-
       <h2>Poetry Work Carousel</h2>
       <ControlledCarousel></ControlledCarousel>
+
       <h2>Featured Poetry</h2>
-      <p>Content Content Content</p>
-      <h2>Follow Us Section</h2>
-      <p>Content Content Content</p>
-
-
-      {/* <PoetryCarousel></PoetryCarousel> */}
       <FeaturedPoetry></FeaturedPoetry>
+
+      <h2>Follow Us Section</h2>
       <ContactsContainer></ContactsContainer>
     </div>
   );

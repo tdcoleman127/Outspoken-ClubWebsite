@@ -1,8 +1,5 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import instaIcon from './img/Instagram Logo.webp';
-import GroupMeIcon from './img/GroupMe Logo.png';
-import DiscordIcon from './img/Discord Logo.png';
 import './css/Carousel.css';
 import ExampleCarouselImage from './ExampleCarouselImage';
 import 'bootstrap/dist/css/bootstrap.min.css';

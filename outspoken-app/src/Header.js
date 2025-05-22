@@ -1,16 +1,17 @@
 import './css/Header.css';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import clubLogo from './img/outspoken_seal.png'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function CustomHeader() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar className="bg-body-tertiary" sticky="top" expand="lg">
       <Container>
-        <img src={clubLogo} className="headerImg" alt="Club Logo"/>
+        {/* <img src={clubLogo} className="headerImg" alt="Club Logo"/> */}
         <Navbar.Brand href="#home">Outspoken Poetry Club</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -36,26 +37,3 @@ function CustomHeader() {
 }
 
 export default CustomHeader;
-
-/*
-function CustomHeader() {
-  return (
-    <header>
-    <Container className="headerStuff">
-      <Row>
-        <Col>
-            <img src={menuIcon} className="headerImg" alt="Hamburger Menu"/>
-        </Col>
-        <Col>
-            <h3>Outspoken Poetry Club</h3>
-            <h4><italic>"The wordy ones."</italic></h4>
-        </Col>
-        <Col>
-            <img src={clubLogo} className="headerImg" alt="Club Logo"/>
-        </Col>
-      </Row>
-    </Container>
-    </header>
-  );
-}
-*/

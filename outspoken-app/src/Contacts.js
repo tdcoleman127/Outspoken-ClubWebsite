@@ -6,6 +6,7 @@ import instaIcon from './img/Instagram Logo.webp';
 import GroupMeIcon from './img/GroupMe Logo.png';
 import DiscordIcon from './img/Discord Logo.png';
 import emailIcon from './img/emailIcon.png';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ContactsContainer() {
   return (
