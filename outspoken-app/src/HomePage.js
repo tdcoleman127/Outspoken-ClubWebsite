@@ -13,13 +13,18 @@ function HomePage() {
     <link rel="icon" href={clubLogo} />
     </head>
       <CustomHeader></CustomHeader>
-      <h2>Poetry Work Carousel</h2>
+      <br></br>
+      <h2 className='sectionTitle'>Check out our latest club news!</h2>
+      <br></br>
       <ControlledCarousel></ControlledCarousel>
-
-      <h2>Featured Poetry</h2>
+      <br></br>
+      <h2 className='sectionTitle'>Here's our Featured Poetry: "Words of the Week"</h2>
+      <br></br>
       <FeaturedPoetry></FeaturedPoetry>
 
-      <h2>Follow Us Section</h2>
+      <br></br>
+      <h2 className='sectionTitle'>Feeling wordy? Contact us!</h2>
+      <br></br>
       <ContactsContainer></ContactsContainer>
     </div>
   );

@@ -1,13 +1,10 @@
-.headerStuff {
-  background-color: darkgray;
-  color: white;
-  width: auto;
-  height: 200px;
-  width: 100%;
+.headerBack {
+  background-color: rgb(65, 64, 65);
 }
 
-.purpleStuff {
-  background-color: rgb(197, 118, 254);
+.headerPageTitle, .headerLink, .headerDropdown .nav-link {
+  font-size: 1.5em;
+  color: rgb(255, 255, 255) !important;
 }
 
 .headerImg {
