@@ -5,14 +5,13 @@ import instaLogo from './img/Instagram Logo.webp';
 
 function ProfileCard() {
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '15rem' }}>
       <Card.Img variant="top" src={instaLogo} />
       <Card.Body>
         <Card.Title>First Last - President</Card.Title>
       <ListGroup className="list-group-flush">
         <ListGroup.Item>Major: Cras justo odio</ListGroup.Item>
         <ListGroup.Item>Year: Dapibus ac facilisis in</ListGroup.Item>
-        <ListGroup.Item>Fun Fact: Vestibulum at eros</ListGroup.Item>
       </ListGroup>
       <hr></hr>
         <Card.Text>
