@@ -10,8 +10,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ContactsContainer() {
   return (
+    // Remember to link club contacts!
     <Container>
-      <Row xs={1} md={2}>
+      <Row xs={1} md={4} className="justify-content-center">
         <Col>
         <img src={instaIcon} className="contactItem" alt="img1"/>
         <h2>@outspoken-uic</h2>
@@ -26,7 +27,7 @@ function ContactsContainer() {
         </Col>
         <Col>
         <img src={emailIcon} className="contactItem" alt="img1"/>
-        <h2>outspokenPoetryClub@uic.edu</h2>
+        <h2>outspokenuic@gmail.com</h2>
         </Col>
       </Row>
     </Container>
